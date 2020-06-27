@@ -1,0 +1,329 @@
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\bin\Debug\EPPlus.dll
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\LAP TIMER\Lap Timer\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Remenants\LAP TIMER - Copy\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\User\Desktop\Lap Timer\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\User\Desktop\Lap Timer\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\User\Robocon\Dev\Lab Timer\Lap Timer_H\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.csproj.CoreCompileInputs.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.csproj.CoreCompileInputs.cache
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\EPPlus.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Remenants\Lap Timer_H_GUI_UPDATED\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\ACER\Desktop\Robocon\Robocon Project\IND8600 impinj r2000 4ports uhf rfid reader\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.CoreCompileInputs.cache
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\laserylee\Desktop\RFID\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.CoreCompileInputs.cache
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\laserylee\Documents\MEGA\Lap Timer_H_GUI_UPDATED2\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.CoreCompileInputs.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.pdb
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\User\Desktop\Lap Timer_H_GUI_UPDATED2 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.exe.config
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.pdb
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\LLRP.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\LLRP.Impinj.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Renci.SshNet.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\SimpleTCP.dll
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\EPPlus.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Renci.SshNet.xml
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.CoreCompileInputs.cache
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.application
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.exe
+C:\Users\amera\OneDrive\Desktop\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.pdb
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.exe.config
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.exe.manifest
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.application
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.exe
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Lap Timer.pdb
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Impinj.OctaneSdk.dll
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\LLRP.dll
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\LLRP.Impinj.dll
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Renci.SshNet.dll
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\SimpleTCP.dll
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\EPPlus.xml
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Impinj.OctaneSdk.xml
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\Renci.SshNet.xml
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csprojAssemblyReference.cache
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Form1.resources
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Form2.resources
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Form3.resources
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Form4.resources
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap_Timer.Properties.Resources.resources
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.GenerateResource.cache
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.CoreCompileInputs.cache
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.exe.manifest
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.application
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.exe
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.pdb
