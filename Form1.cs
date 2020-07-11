@@ -311,10 +311,7 @@ namespace Lap_Timer
                     Updatemain.Enabled = true;
                     updatefinish.Enabled = true;
                 racebeginbutton.Text = "End Race";
-                if (countdown > 250)
-                {
-                    myStopWatch.Start();
-                }
+               
             }
             else 
             {
