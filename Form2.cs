@@ -12,10 +12,10 @@ using EPPlus;
 using System.Reflection;
 using OfficeOpenXml;
 using OfficeOpenXml.Drawing;
-
+using MetroFramework.Forms;
 namespace Lap_Timer
 {
-    public partial class Form2 : Form
+    public partial class Form2 : MetroForm
     {
         public string[] firstnames { get; set; }
         public string[] lastnames { get; set; }
@@ -325,7 +325,6 @@ namespace Lap_Timer
 
         }
 
-       
 
         private void Submit_Click(object sender, EventArgs e)
         {

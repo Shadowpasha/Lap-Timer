@@ -11,11 +11,12 @@ using System.Windows.Forms;
 using EPPlus;
 using OfficeOpenXml;
 using OfficeOpenXml.Drawing;
+using MetroFramework.Forms;
 
 namespace Lap_Timer
 {
 
-    public partial class Form3 : Form
+    public partial class Form3 : MetroForm
     {
         string[] names;
         string[] lastnames;

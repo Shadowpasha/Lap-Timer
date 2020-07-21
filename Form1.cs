@@ -15,12 +15,13 @@ using OfficeOpenXml;
 using SimpleTCP;
 using System.Reflection;
 using System.Net;
+using MetroFramework.Forms;
 using System.Media;
 using Timer = System.Windows.Forms.Timer;
 
 namespace Lap_Timer
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroForm
     {
         public Reader.ReaderMethod reader;
         public ReaderSetting m_curSetting = new ReaderSetting();
@@ -169,10 +170,10 @@ namespace Lap_Timer
 
                 for (int x = 0; x <= updownlaps.Value ; x++)
                 {
-                    Label all = new Label();
+                    MetroFramework.Controls.MetroLabel all = new MetroFramework.Controls.MetroLabel();
 
                     Control c = maintable.GetControlFromPosition(y, x);
-                    try { all = (Label)c; } catch { }
+                    try { all = (MetroFramework.Controls.MetroLabel)c; } catch { }
                     try
                     {
                         WriteCell(ws, x + 1, y + 1, x + 1, y + 1, all.Text);
@@ -387,13 +388,14 @@ namespace Lap_Timer
                
                 for (int y = maintable.ColumnCount; y > 3; y--)
                 {
-                    Label Lap = new Label();
+                    MetroFramework.Controls.MetroLabel Lap = new MetroFramework.Controls.MetroLabel();
                     Lap.Name = "Lap";
                     Lap.Text = "Lap " + (y - 3).ToString();
                     Lap.Anchor = System.Windows.Forms.AnchorStyles.None;
-                    Lap.BackColor = System.Drawing.SystemColors.WindowFrame;
-                    Lap.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-                    Lap.ForeColor = System.Drawing.SystemColors.Window;
+                    Lap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+                   // Lap.BackColor = System.Drawing.SystemColors.WindowFrame;
+                   // Lap.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+                   // Lap.ForeColor = System.Drawing.SystemColors.Window;
                     Lap.Location = new System.Drawing.Point(311, 1);
                     Lap.Margin = new System.Windows.Forms.Padding(0);
                     Lap.MinimumSize = new System.Drawing.Size(294, 51);
@@ -404,13 +406,14 @@ namespace Lap_Timer
                     maintable.Controls.Add(Lap, y - 2, 0);
                 }
 
-                Label finish = new Label();
+                MetroFramework.Controls.MetroLabel finish = new MetroFramework.Controls.MetroLabel();
                 finish.Name = "finish";
                 finish.Text = "Finish";
                 finish.Anchor = System.Windows.Forms.AnchorStyles.None;
-                finish.BackColor = System.Drawing.SystemColors.WindowFrame;
-                finish.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-                finish.ForeColor = System.Drawing.SystemColors.Window;
+                finish.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+              //  finish.BackColor = System.Drawing.SystemColors.WindowFrame;
+              //  finish.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+              // finish.ForeColor = System.Drawing.SystemColors.Window;
                 finish.Location = new System.Drawing.Point(311, 1);
                 finish.Margin = new System.Windows.Forms.Padding(0);
                 finish.MinimumSize = new System.Drawing.Size(240, 51);
@@ -458,13 +461,14 @@ namespace Lap_Timer
 
 
 
-                Label finish = new Label();
+                MetroFramework.Controls.MetroLabel finish = new MetroFramework.Controls.MetroLabel();
                 finish.Name = "finish";
                 finish.Text = "Finish";
                 finish.Anchor = System.Windows.Forms.AnchorStyles.None;
-                finish.BackColor = System.Drawing.SystemColors.WindowFrame;
-                finish.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-                finish.ForeColor = System.Drawing.SystemColors.Window;
+                finish.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+                // finish.BackColor = System.Drawing.SystemColors.WindowFrame;
+                //  finish.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+                // finish.ForeColor = System.Drawing.SystemColors.Window;
                 finish.Location = new System.Drawing.Point(311, 1);
                 finish.Margin = new System.Windows.Forms.Padding(0);
                 finish.MinimumSize = new System.Drawing.Size(240, 51);
@@ -476,13 +480,14 @@ namespace Lap_Timer
 
                 for (int y = maintable.ColumnCount; y > 3; y--)
                 {
-                    Label Lap = new Label();
+                    MetroFramework.Controls.MetroLabel Lap = new MetroFramework.Controls.MetroLabel();
                     Lap.Name = "Lap";
                     Lap.Text = "Lap " + (y - 3).ToString();
                     Lap.Anchor = System.Windows.Forms.AnchorStyles.None;
-                    Lap.BackColor = System.Drawing.SystemColors.WindowFrame;
-                    Lap.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-                    Lap.ForeColor = System.Drawing.SystemColors.Window;
+                    Lap.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+                    //  Lap.BackColor = System.Drawing.SystemColors.WindowFrame;
+                    //  Lap.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+                    //  Lap.ForeColor = System.Drawing.SystemColors.Window;
                     Lap.Location = new System.Drawing.Point(311, 1);
                     Lap.Margin = new System.Windows.Forms.Padding(0);
                     Lap.MinimumSize = new System.Drawing.Size(240, 51);
@@ -533,14 +538,14 @@ namespace Lap_Timer
                 lapinterval = new int[(int)updownracers.Value + 2];
                 for (int x = maintable.RowCount; x > 2; x--)
                 {
-                    Label rank = new Label();
+                    MetroFramework.Controls.MetroLabel rank = new MetroFramework.Controls.MetroLabel();
                     rank.Name = "rank" + (x - 2).ToString();
                     rank.Text = "__";
-                    rank.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                   // rank.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     rank.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                     rank.Size = new Size(156, 62);
 
-                    Label id = new Label();
+                    MetroFramework.Controls.MetroLabel id = new MetroFramework.Controls.MetroLabel();
                     id.Name = "id" + (x - 2).ToString();
                     if (register)
                     {
@@ -550,7 +555,7 @@ namespace Lap_Timer
                     {
                         id.Text = loadids.namesf1[x - 2];
                     }
-                    id.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                  //  id.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     id.Size = new Size(152, 62);
                     id.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                     maintable.Controls.Add(id, 1, x - 2);
@@ -559,10 +564,10 @@ namespace Lap_Timer
                     {
 
 
-                        Label time = new Label();
+                        MetroFramework.Controls.MetroLabel time = new MetroFramework.Controls.MetroLabel();
                         time.Name = "time" + (y - 1).ToString() + (x - 2).ToString();
                         time.Text = "00:00:00";
-                        time.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                      //  time.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                         time.Size = new Size(230, 51);
                         time.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 
@@ -613,15 +618,15 @@ namespace Lap_Timer
                 }
                 for (int x = maintable.RowCount; x > 2; x--)
                 {
-                    Label rank = new Label();
+                    MetroFramework.Controls.MetroLabel rank = new MetroFramework.Controls.MetroLabel();
                     rank.Name = "rank" + (x - 2).ToString();
                     rank.Text = "__";
                   
-                    rank.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                   // rank.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     rank.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                     rank.Size = new Size(156, 62);
 
-                     Label id = new Label();
+                     MetroFramework.Controls.MetroLabel id = new MetroFramework.Controls.MetroLabel();
                     id.Name = "id" + (x - 2).ToString();
                     if (register)
                     {
@@ -640,7 +645,7 @@ namespace Lap_Timer
                     {
 
 
-                        Label time = new Label();
+                        MetroFramework.Controls.MetroLabel time = new MetroFramework.Controls.MetroLabel();
                         time.Name = "time" + (y - 1).ToString() + (x - 2).ToString();
                         time.Text = "00:00:00";
                         time.Font = new Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -745,7 +750,7 @@ namespace Lap_Timer
 
                             if (racermap[x] < maintable.ColumnCount - 3)
                             {
-                                Label time = new Label();
+                                MetroFramework.Controls.MetroLabel time = new MetroFramework.Controls.MetroLabel();
 
                                 Control[] c;
 
@@ -753,7 +758,7 @@ namespace Lap_Timer
                                 if (c.Length > 0)
                                 {
 
-                                    time = (Label)c[0];
+                                    time = (MetroFramework.Controls.MetroLabel)c[0];
                                 }
                                 time.Text = ((TimeSpan.FromMilliseconds((timer - lapinterval[x]) * 10))).ToString(@"mm\:ss\:ff");
                                 display.currents[rankmemory[x]] = ((TimeSpan.FromMilliseconds((timer - lapinterval[x]) * 10))).ToString(@"mm\:ss\:ff");
@@ -762,7 +767,7 @@ namespace Lap_Timer
                             {
                                 if (finished)
                                 {
-                                    Label time = new Label();
+                                    MetroFramework.Controls.MetroLabel time = new MetroFramework.Controls.MetroLabel();
 
                                     Control[] c;
 
@@ -770,7 +775,7 @@ namespace Lap_Timer
                                     if (c.Length > 0)
                                     {
 
-                                        time = (Label)c[0];
+                                        time = (MetroFramework.Controls.MetroLabel)c[0];
                                     }
                                     display.currents[rankmemory[x]] = time.Text;
 
@@ -801,7 +806,7 @@ namespace Lap_Timer
 
                             if (racermap[x] < maintable.ColumnCount - 3)
                             {
-                                Label time = new Label();
+                                MetroFramework.Controls.MetroLabel time = new MetroFramework.Controls.MetroLabel();
 
                                 Control[] c;
 
@@ -809,7 +814,7 @@ namespace Lap_Timer
                                 if (c.Length > 0)
                                 {
 
-                                    time = (Label)c[0];
+                                    time = (MetroFramework.Controls.MetroLabel)c[0];
                                 }
                                 time.Text = ((TimeSpan.FromMilliseconds((timer - lapinterval[x]) * 10))).ToString(@"mm\:ss\:ff");
                                 display.currents[rankmemory[x]] = ((TimeSpan.FromMilliseconds((timer - lapinterval[x]) * 10))).ToString(@"mm\:ss\:ff");
@@ -818,7 +823,7 @@ namespace Lap_Timer
                             {
                                 if (finished)
                                 {
-                                    Label time = new Label();
+                                    MetroFramework.Controls.MetroLabel time = new MetroFramework.Controls.MetroLabel();
 
                                     Control[] c;
 
@@ -826,7 +831,7 @@ namespace Lap_Timer
                                     if (c.Length > 0)
                                     {
 
-                                        time = (Label)c[0];
+                                        time = (MetroFramework.Controls.MetroLabel)c[0];
                                     }
                                     display.currents[rankmemory[x]] = time.Text;
 
@@ -855,12 +860,12 @@ namespace Lap_Timer
                     {
                         if (racermap[x - 1] < updownlaps.Value)
                         {
-                            Label finish = new Label();
+                            MetroFramework.Controls.MetroLabel finish = new MetroFramework.Controls.MetroLabel();
                             Control[] c;
                             c = maintable.Controls.Find("time" + ((int)updownlaps.Value + 2).ToString() + (x - 1).ToString(), true);
                             if (c.Length > 0)
                             {
-                                finish = (Label)c[0];
+                                finish = (MetroFramework.Controls.MetroLabel)c[0];
                             }
 
                             display.finishs[rankmemory[x - 1]] = ((TimeSpan.FromMilliseconds((ftimer) * 10))).ToString(@"mm\:ss\:ff");
@@ -879,12 +884,12 @@ namespace Lap_Timer
                                 maintimer.Change(System.Threading.Timeout.Infinite, 1);
                                 myStopWatch.Stop();
                                 finished = true;
-                                Label finish = new Label();
+                                MetroFramework.Controls.MetroLabel finish = new MetroFramework.Controls.MetroLabel();
                                 Control[] c;
                                 c = maintable.Controls.Find("time" + ((int)updownlaps.Value + 2).ToString() + (x - 1).ToString(), true);
                                 if (c.Length > 0)
                                 {
-                                    finish = (Label)c[0];
+                                    finish = (MetroFramework.Controls.MetroLabel)c[0];
                                 }
                                 display.finishs[rankmemory[x - 1]] = finish.Text;
 
@@ -910,12 +915,12 @@ namespace Lap_Timer
                     {
                         if (racermap[x - 1] < updownlaps.Value)
                         {
-                            Label finish = new Label();
+                            MetroFramework.Controls.MetroLabel finish = new MetroFramework.Controls.MetroLabel();
                             Control[] c;
                             c = maintable.Controls.Find("time" + ((int)updownlaps.Value + 2).ToString() + (x - 1).ToString(), true);
                             if (c.Length > 0)
                             {
-                                finish = (Label)c[0];
+                                finish = (MetroFramework.Controls.MetroLabel)c[0];
                             }
 
                             display.finishs[rankmemory[x - 1]] = ((TimeSpan.FromMilliseconds((ftimer) * 10))).ToString(@"mm\:ss\:ff");
@@ -935,12 +940,12 @@ namespace Lap_Timer
                                 maintimer.Change(System.Threading.Timeout.Infinite, 1);
                                 myStopWatch.Stop();
                                 finished = true;
-                                Label finish = new Label();
+                                MetroFramework.Controls.MetroLabel finish = new MetroFramework.Controls.MetroLabel();
                                 Control[] c;
                                 c = maintable.Controls.Find("time" + ((int)updownlaps.Value + 2).ToString() + (x - 1).ToString(), true);
                                 if (c.Length > 0)
                                 {
-                                    finish = (Label)c[0];
+                                    finish = (MetroFramework.Controls.MetroLabel)c[0];
                                 }
                                 display.finishs[rankmemory[x - 1]] = finish.Text;
 
@@ -1033,10 +1038,10 @@ namespace Lap_Timer
 
                     maxindex = lapinterval.ToList().IndexOf(maxrank[x - 1]);
 
-                    Label rank = new Label();
+                    MetroFramework.Controls.MetroLabel rank = new MetroFramework.Controls.MetroLabel();
                     Control[] c = maintable.Controls.Find("rank" + (maxindex).ToString(), true);
 
-                    try { rank = (Label)c[0]; } catch { }
+                    try { rank = (MetroFramework.Controls.MetroLabel)c[0]; } catch { }
                    
                     rank.Text = (x).ToString();
                     rankmemory[maxindex] = x;
@@ -1084,11 +1089,11 @@ namespace Lap_Timer
                         if (racermap[maxindex2] == (racermap.Max() - t))
                         {
                             rankorder--;
-                            Label rank = new Label();
+                            MetroFramework.Controls.MetroLabel rank = new MetroFramework.Controls.MetroLabel();
                             Control[] c = maintable.Controls.Find("rank" + (maxindex2).ToString(), true);
                             if (c.Length > 0)
                             {
-                                rank = (Label)c[0];
+                                rank = (MetroFramework.Controls.MetroLabel)c[0];
                             }
                             rank.Text = (rankorder).ToString();
                             rankmemory[maxindex2] = rankorder;
@@ -1477,7 +1482,7 @@ namespace Lap_Timer
         {
             if (!m_connected)
             {
-                MessageBox.Show("Not connected!\nHint: Connect through RS232 or TCP/IP.");
+              //  MessageBox.Show("Not connected!\nHint: Connect through RS232 or TCP/IP.");
                 return;
             }
            
@@ -1506,8 +1511,8 @@ namespace Lap_Timer
         private void EnableInterface(bool trigger)
         {
            // racebeginbutton.Enabled = trigger;
-            StartReading.Enabled = trigger;
-            group.Enabled = trigger;
+            //StartReading.Enabled = trigger;
+            //group.Enabled = trigger;
            // MANUAL.Enabled = trigger;
         }
         private void btSetConfig_Click(object sender, EventArgs e)
@@ -1870,7 +1875,7 @@ namespace Lap_Timer
                                 {
                                     racer = loadids.tagsf1.ToList().IndexOf(tagholder.ToString()) + 1;
                                 }
-                                Label time = new Label();
+                                MetroFramework.Controls.MetroLabel time = new MetroFramework.Controls.MetroLabel();
                                 if (racer == loadids.tagsf1.Length && first_round)
                                 {
                                     myStopWatch.Restart();
@@ -1881,16 +1886,16 @@ namespace Lap_Timer
                                 c = maintable.Controls.Find("time" + (racermap[racer] + 2).ToString() + (racer).ToString(), true);
 
                                 if (c.Length > 0)
-                                    time = (Label)c[0];
+                                    time = (MetroFramework.Controls.MetroLabel)c[0];
 
                                 time.Text = ((TimeSpan.FromMilliseconds((timer - lapinterval[racer]) * 10))).ToString(@"mm\:ss\:ff");
                                 display.currents[rankmemory[racer]] = ((TimeSpan.FromMilliseconds((timer - lapinterval[racer]) * 10))).ToString(@"mm\:ss\:ff");
 
-                                Label finish = new Label();
+                                MetroFramework.Controls.MetroLabel finish = new MetroFramework.Controls.MetroLabel();
                                 Control[] c1;
                                 c1 = maintable.Controls.Find("time" + ((int)updownlaps.Value + 2).ToString() + (racer).ToString(), true);
                                 if (c1.Length > 0)
-                                    finish = (Label)c1[0];
+                                    finish = (MetroFramework.Controls.MetroLabel)c1[0];
 
 
                                 display.finishs[rankmemory[racer]] = ((TimeSpan.FromMilliseconds((ftimer) * 10))).ToString(@"mm\:ss\:ff");
@@ -1980,7 +1985,12 @@ namespace Lap_Timer
             }
         }
 
- 
+     
+
+
+
+
+
 
 
 

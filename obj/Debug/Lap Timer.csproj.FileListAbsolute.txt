@@ -327,3 +327,5 @@ D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Tim
 D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.csproj.CopyComplete
 D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.exe
 D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\obj\Debug\Lap Timer.pdb
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\MetroFramework.dll
+D:\Remenants\Lap timers\Lap Timer_H_GUI_UPDATED3 Lee\Lap Timer\bin\Debug\MetroFramework.Fonts.dll
