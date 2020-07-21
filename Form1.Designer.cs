@@ -157,9 +157,6 @@
             // 
             // maintable
             // 
-            this.maintable.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.maintable.AutoScroll = true;
             this.maintable.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.maintable.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
@@ -171,6 +168,7 @@
             this.maintable.Controls.Add(this.label5, 0, 0);
             this.maintable.Controls.Add(this.label19, 2, 0);
             this.maintable.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.maintable.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.maintable.Location = new System.Drawing.Point(10, 117);
             this.maintable.Name = "maintable";
             this.maintable.RowCount = 2;
@@ -212,6 +210,7 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Rank";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+          //  this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label19
             // 

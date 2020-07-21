@@ -398,18 +398,19 @@ namespace Lap_Timer
                    // Lap.ForeColor = System.Drawing.SystemColors.Window;
                     Lap.Location = new System.Drawing.Point(311, 1);
                     Lap.Margin = new System.Windows.Forms.Padding(0);
-                    Lap.MinimumSize = new System.Drawing.Size(294, 51);
+                    Lap.MinimumSize = new System.Drawing.Size(240, 51);
                     Lap.Size = new System.Drawing.Size(240, 51);
                     Lap.TabIndex = 2;
                     Lap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                     Lap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                    Lap.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right);
                     maintable.Controls.Add(Lap, y - 2, 0);
                 }
 
                 MetroFramework.Controls.MetroLabel finish = new MetroFramework.Controls.MetroLabel();
                 finish.Name = "finish";
                 finish.Text = "Finish";
-                finish.Anchor = System.Windows.Forms.AnchorStyles.None;
+                finish.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right | AnchorStyles.Left);
                 finish.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
               //  finish.BackColor = System.Drawing.SystemColors.WindowFrame;
               //  finish.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
@@ -417,7 +418,7 @@ namespace Lap_Timer
                 finish.Location = new System.Drawing.Point(311, 1);
                 finish.Margin = new System.Windows.Forms.Padding(0);
                 finish.MinimumSize = new System.Drawing.Size(240, 51);
-                finish.Size = new System.Drawing.Size(1076, 51);
+                finish.AutoSize = true;
                 finish.TabIndex = 2;
                 finish.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                 finish.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -492,6 +493,7 @@ namespace Lap_Timer
                     Lap.Margin = new System.Windows.Forms.Padding(0);
                     Lap.MinimumSize = new System.Drawing.Size(240, 51);
                     Lap.Size = new System.Drawing.Size(240, 51);
+             
                     Lap.TabIndex = 2;
                     Lap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                     Lap.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1985,7 +1987,6 @@ namespace Lap_Timer
             }
         }
 
-     
 
 
 
