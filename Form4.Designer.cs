@@ -88,7 +88,9 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.Updategui = new System.Windows.Forms.Timer(this.components);
             this.Timer = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Ranklabel
@@ -98,14 +100,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Ranklabel.AutoSize = true;
             this.Ranklabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Ranklabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Ranklabel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Ranklabel.Location = new System.Drawing.Point(4, 1);
             this.Ranklabel.Name = "Ranklabel";
             this.Ranklabel.Size = new System.Drawing.Size(108, 53);
             this.Ranklabel.TabIndex = 2;
             this.Ranklabel.Text = "Rank";
             this.Ranklabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Ranklabel.Click += new System.EventHandler(this.label2_Click);
             // 
             // laplabel
             // 
@@ -114,7 +115,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.laplabel.AutoSize = true;
             this.laplabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.laplabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.laplabel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.laplabel.Location = new System.Drawing.Point(298, 1);
             this.laplabel.Name = "laplabel";
             this.laplabel.Size = new System.Drawing.Size(306, 53);
@@ -129,7 +130,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank2.AutoSize = true;
             this.rank2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank2.Location = new System.Drawing.Point(4, 109);
             this.rank2.Name = "rank2";
             this.rank2.Size = new System.Drawing.Size(108, 53);
@@ -144,7 +145,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank1.AutoSize = true;
             this.rank1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank1.Location = new System.Drawing.Point(4, 55);
             this.rank1.Name = "rank1";
             this.rank1.Size = new System.Drawing.Size(108, 53);
@@ -159,7 +160,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank3.AutoSize = true;
             this.rank3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank3.Location = new System.Drawing.Point(4, 163);
             this.rank3.Name = "rank3";
             this.rank3.Size = new System.Drawing.Size(108, 53);
@@ -174,7 +175,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank4.AutoSize = true;
             this.rank4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank4.Location = new System.Drawing.Point(4, 217);
             this.rank4.Name = "rank4";
             this.rank4.Size = new System.Drawing.Size(108, 53);
@@ -189,7 +190,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank5.AutoSize = true;
             this.rank5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank5.Location = new System.Drawing.Point(4, 271);
             this.rank5.Name = "rank5";
             this.rank5.Size = new System.Drawing.Size(108, 53);
@@ -204,7 +205,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank6.AutoSize = true;
             this.rank6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank6.Location = new System.Drawing.Point(4, 325);
             this.rank6.Name = "rank6";
             this.rank6.Size = new System.Drawing.Size(108, 53);
@@ -219,7 +220,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank7.AutoSize = true;
             this.rank7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank7.Location = new System.Drawing.Point(4, 379);
             this.rank7.Name = "rank7";
             this.rank7.Size = new System.Drawing.Size(108, 53);
@@ -234,7 +235,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank8.AutoSize = true;
             this.rank8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank8.Location = new System.Drawing.Point(4, 433);
             this.rank8.Name = "rank8";
             this.rank8.Size = new System.Drawing.Size(108, 53);
@@ -249,7 +250,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank9.AutoSize = true;
             this.rank9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank9.Location = new System.Drawing.Point(4, 487);
             this.rank9.Name = "rank9";
             this.rank9.Size = new System.Drawing.Size(108, 53);
@@ -264,7 +265,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rank10.AutoSize = true;
             this.rank10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rank10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.rank10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.rank10.Location = new System.Drawing.Point(4, 541);
             this.rank10.Name = "rank10";
             this.rank10.Size = new System.Drawing.Size(108, 57);
@@ -279,7 +280,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Finshlabel.AutoSize = true;
             this.Finshlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Finshlabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Finshlabel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Finshlabel.Location = new System.Drawing.Point(937, 1);
             this.Finshlabel.Name = "Finshlabel";
             this.Finshlabel.Size = new System.Drawing.Size(295, 53);
@@ -294,7 +295,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.laptimelab.AutoSize = true;
             this.laptimelab.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.laptimelab.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.laptimelab.ForeColor = System.Drawing.SystemColors.ControlText;
             this.laptimelab.Location = new System.Drawing.Point(611, 1);
             this.laptimelab.Name = "laptimelab";
             this.laptimelab.Size = new System.Drawing.Size(319, 53);
@@ -309,7 +310,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Idlabel.AutoSize = true;
             this.Idlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Idlabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Idlabel.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Idlabel.Location = new System.Drawing.Point(119, 1);
             this.Idlabel.Name = "Idlabel";
             this.Idlabel.Size = new System.Drawing.Size(172, 53);
@@ -325,7 +326,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id1.AutoSize = true;
             this.id1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id1.Location = new System.Drawing.Point(119, 55);
             this.id1.Name = "id1";
             this.id1.Size = new System.Drawing.Size(172, 53);
@@ -340,7 +341,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap1.AutoSize = true;
             this.lap1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap1.Location = new System.Drawing.Point(298, 55);
             this.lap1.Name = "lap1";
             this.lap1.Size = new System.Drawing.Size(306, 53);
@@ -355,7 +356,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current1.AutoSize = true;
             this.current1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current1.Location = new System.Drawing.Point(611, 55);
             this.current1.Name = "current1";
             this.current1.Size = new System.Drawing.Size(319, 53);
@@ -370,7 +371,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish1.AutoSize = true;
             this.finish1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish1.Location = new System.Drawing.Point(937, 55);
             this.finish1.Name = "finish1";
             this.finish1.Size = new System.Drawing.Size(295, 53);
@@ -385,7 +386,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id2.AutoSize = true;
             this.id2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id2.Location = new System.Drawing.Point(119, 109);
             this.id2.Name = "id2";
             this.id2.Size = new System.Drawing.Size(172, 53);
@@ -400,7 +401,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap2.AutoSize = true;
             this.lap2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap2.Location = new System.Drawing.Point(298, 109);
             this.lap2.Name = "lap2";
             this.lap2.Size = new System.Drawing.Size(306, 53);
@@ -415,7 +416,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current2.AutoSize = true;
             this.current2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current2.Location = new System.Drawing.Point(611, 109);
             this.current2.Name = "current2";
             this.current2.Size = new System.Drawing.Size(319, 53);
@@ -430,7 +431,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish2.AutoSize = true;
             this.finish2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish2.Location = new System.Drawing.Point(937, 109);
             this.finish2.Name = "finish2";
             this.finish2.Size = new System.Drawing.Size(295, 53);
@@ -445,7 +446,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id3.AutoSize = true;
             this.id3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id3.Location = new System.Drawing.Point(119, 163);
             this.id3.Name = "id3";
             this.id3.Size = new System.Drawing.Size(172, 53);
@@ -460,7 +461,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap3.AutoSize = true;
             this.lap3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap3.Location = new System.Drawing.Point(298, 163);
             this.lap3.Name = "lap3";
             this.lap3.Size = new System.Drawing.Size(306, 53);
@@ -475,7 +476,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current3.AutoSize = true;
             this.current3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current3.Location = new System.Drawing.Point(611, 163);
             this.current3.Name = "current3";
             this.current3.Size = new System.Drawing.Size(319, 53);
@@ -490,7 +491,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish3.AutoSize = true;
             this.finish3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish3.Location = new System.Drawing.Point(937, 163);
             this.finish3.Name = "finish3";
             this.finish3.Size = new System.Drawing.Size(295, 53);
@@ -505,7 +506,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id4.AutoSize = true;
             this.id4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id4.Location = new System.Drawing.Point(119, 217);
             this.id4.Name = "id4";
             this.id4.Size = new System.Drawing.Size(172, 53);
@@ -520,7 +521,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap4.AutoSize = true;
             this.lap4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap4.Location = new System.Drawing.Point(298, 217);
             this.lap4.Name = "lap4";
             this.lap4.Size = new System.Drawing.Size(306, 53);
@@ -535,7 +536,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current4.AutoSize = true;
             this.current4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current4.Location = new System.Drawing.Point(611, 217);
             this.current4.Name = "current4";
             this.current4.Size = new System.Drawing.Size(319, 53);
@@ -550,7 +551,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish4.AutoSize = true;
             this.finish4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish4.Location = new System.Drawing.Point(937, 217);
             this.finish4.Name = "finish4";
             this.finish4.Size = new System.Drawing.Size(295, 53);
@@ -565,7 +566,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id5.AutoSize = true;
             this.id5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id5.Location = new System.Drawing.Point(119, 271);
             this.id5.Name = "id5";
             this.id5.Size = new System.Drawing.Size(172, 53);
@@ -580,7 +581,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap5.AutoSize = true;
             this.lap5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap5.Location = new System.Drawing.Point(298, 271);
             this.lap5.Name = "lap5";
             this.lap5.Size = new System.Drawing.Size(306, 53);
@@ -595,7 +596,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current5.AutoSize = true;
             this.current5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current5.Location = new System.Drawing.Point(611, 271);
             this.current5.Name = "current5";
             this.current5.Size = new System.Drawing.Size(319, 53);
@@ -610,7 +611,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish5.AutoSize = true;
             this.finish5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish5.Location = new System.Drawing.Point(937, 271);
             this.finish5.Name = "finish5";
             this.finish5.Size = new System.Drawing.Size(295, 53);
@@ -625,7 +626,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id6.AutoSize = true;
             this.id6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id6.Location = new System.Drawing.Point(119, 325);
             this.id6.Name = "id6";
             this.id6.Size = new System.Drawing.Size(172, 53);
@@ -640,7 +641,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap6.AutoSize = true;
             this.lap6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap6.Location = new System.Drawing.Point(298, 325);
             this.lap6.Name = "lap6";
             this.lap6.Size = new System.Drawing.Size(306, 53);
@@ -655,7 +656,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current6.AutoSize = true;
             this.current6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current6.Location = new System.Drawing.Point(611, 325);
             this.current6.Name = "current6";
             this.current6.Size = new System.Drawing.Size(319, 53);
@@ -670,7 +671,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish6.AutoSize = true;
             this.finish6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish6.Location = new System.Drawing.Point(937, 325);
             this.finish6.Name = "finish6";
             this.finish6.Size = new System.Drawing.Size(295, 53);
@@ -685,7 +686,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id7.AutoSize = true;
             this.id7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id7.Location = new System.Drawing.Point(119, 379);
             this.id7.Name = "id7";
             this.id7.Size = new System.Drawing.Size(172, 53);
@@ -700,7 +701,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap7.AutoSize = true;
             this.lap7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap7.Location = new System.Drawing.Point(298, 379);
             this.lap7.Name = "lap7";
             this.lap7.Size = new System.Drawing.Size(306, 53);
@@ -715,7 +716,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current7.AutoSize = true;
             this.current7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current7.Location = new System.Drawing.Point(611, 379);
             this.current7.Name = "current7";
             this.current7.Size = new System.Drawing.Size(319, 53);
@@ -730,7 +731,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish7.AutoSize = true;
             this.finish7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish7.Location = new System.Drawing.Point(937, 379);
             this.finish7.Name = "finish7";
             this.finish7.Size = new System.Drawing.Size(295, 53);
@@ -745,7 +746,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id8.AutoSize = true;
             this.id8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id8.Location = new System.Drawing.Point(119, 433);
             this.id8.Name = "id8";
             this.id8.Size = new System.Drawing.Size(172, 53);
@@ -760,7 +761,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap8.AutoSize = true;
             this.lap8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap8.Location = new System.Drawing.Point(298, 433);
             this.lap8.Name = "lap8";
             this.lap8.Size = new System.Drawing.Size(306, 53);
@@ -775,7 +776,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current8.AutoSize = true;
             this.current8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current8.Location = new System.Drawing.Point(611, 433);
             this.current8.Name = "current8";
             this.current8.Size = new System.Drawing.Size(319, 53);
@@ -790,7 +791,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish8.AutoSize = true;
             this.finish8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish8.Location = new System.Drawing.Point(937, 433);
             this.finish8.Name = "finish8";
             this.finish8.Size = new System.Drawing.Size(295, 53);
@@ -805,7 +806,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id9.AutoSize = true;
             this.id9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id9.Location = new System.Drawing.Point(119, 487);
             this.id9.Name = "id9";
             this.id9.Size = new System.Drawing.Size(172, 53);
@@ -820,7 +821,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap9.AutoSize = true;
             this.lap9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap9.Location = new System.Drawing.Point(298, 487);
             this.lap9.Name = "lap9";
             this.lap9.Size = new System.Drawing.Size(306, 53);
@@ -835,7 +836,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current9.AutoSize = true;
             this.current9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current9.Location = new System.Drawing.Point(611, 487);
             this.current9.Name = "current9";
             this.current9.Size = new System.Drawing.Size(319, 53);
@@ -850,7 +851,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish9.AutoSize = true;
             this.finish9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish9.Location = new System.Drawing.Point(937, 487);
             this.finish9.Name = "finish9";
             this.finish9.Size = new System.Drawing.Size(295, 53);
@@ -865,7 +866,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.id10.AutoSize = true;
             this.id10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.id10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.id10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.id10.Location = new System.Drawing.Point(119, 541);
             this.id10.Name = "id10";
             this.id10.Size = new System.Drawing.Size(172, 57);
@@ -880,7 +881,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lap10.AutoSize = true;
             this.lap10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lap10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lap10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lap10.Location = new System.Drawing.Point(298, 541);
             this.lap10.Name = "lap10";
             this.lap10.Size = new System.Drawing.Size(306, 57);
@@ -895,7 +896,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.current10.AutoSize = true;
             this.current10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.current10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.current10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.current10.Location = new System.Drawing.Point(611, 541);
             this.current10.Name = "current10";
             this.current10.Size = new System.Drawing.Size(319, 57);
@@ -910,7 +911,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.finish10.AutoSize = true;
             this.finish10.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.finish10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.finish10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.finish10.Location = new System.Drawing.Point(937, 541);
             this.finish10.Name = "finish10";
             this.finish10.Size = new System.Drawing.Size(295, 57);
@@ -923,7 +924,7 @@
             this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tableLayoutPanel1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
             this.tableLayoutPanel1.ColumnCount = 5;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 9.324299F));
@@ -971,7 +972,6 @@
             this.tableLayoutPanel1.Controls.Add(this.finish1, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.current1, 3, 1);
             this.tableLayoutPanel1.Controls.Add(this.lap1, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.Ranklabel, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.Idlabel, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.Finshlabel, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.rank10, 0, 10);
@@ -986,8 +986,9 @@
             this.tableLayoutPanel1.Controls.Add(this.rank2, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.laplabel, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.id1, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.Ranklabel, 0, 0);
             this.tableLayoutPanel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(63, 182);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(84, 224);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 11;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090908F));
@@ -1003,7 +1004,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090908F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1236, 599);
             this.tableLayoutPanel1.TabIndex = 0;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
             // Updategui
             // 
@@ -1014,17 +1014,30 @@
             // 
             this.Timer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Timer.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.Timer.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.Timer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Timer.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Timer.Font = new System.Drawing.Font("Microsoft Sans Serif", 110F);
-            this.Timer.ForeColor = System.Drawing.Color.White;
-            this.Timer.Location = new System.Drawing.Point(327, 9);
+            this.Timer.ForeColor = System.Drawing.Color.Black;
+            this.Timer.Location = new System.Drawing.Point(84, 40);
             this.Timer.Name = "Timer";
-            this.Timer.Size = new System.Drawing.Size(686, 161);
+            this.Timer.Size = new System.Drawing.Size(1236, 161);
             this.Timer.TabIndex = 1;
             this.Timer.Text = "00:00:00";
             this.Timer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel1.AutoSize = true;
+            this.panel1.Controls.Add(this.Timer);
+            this.panel1.Controls.Add(this.tableLayoutPanel1);
+            this.panel1.Location = new System.Drawing.Point(-24, -4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1492, 855);
+            this.panel1.TabIndex = 2;
             // 
             // Form4
             // 
@@ -1032,8 +1045,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1357, 845);
-            this.Controls.Add(this.Timer);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form4";
@@ -1041,7 +1053,9 @@
             this.Load += new System.EventHandler(this.Form4_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1104,5 +1118,6 @@
         public System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         public System.Windows.Forms.Timer Updategui;
         public System.Windows.Forms.Label Timer;
+        private System.Windows.Forms.Panel panel1;
     }
 }

@@ -26,6 +26,9 @@ namespace Lap_Timer
             lap = new string[999];
             current = new string[999];
             finish = new string[999];
+            panel1.BackColor = Color.FromArgb(160, Color.Black);
+            tableLayoutPanel1.BackColor = Color.FromArgb(125, Color.White);
+            Timer.BackColor = Color.FromArgb(200, Color.White);
         }
 
 
@@ -100,16 +103,8 @@ namespace Lap_Timer
             tableLayoutPanel1.ResumeLayout();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
+  
+   
         
 
 
