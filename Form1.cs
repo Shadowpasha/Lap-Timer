@@ -1138,7 +1138,7 @@ namespace Lap_Timer
             EnableInterface(false);
             gbAntenna.Enabled = false; // temporarily disabled
             gbRFPower.Enabled = false; // temporarily disabled
-            tabControl1.SelectedIndex = 1;
+            //tabControl1.SelectedIndex = 1;
             // Set Up Application Specific Settings
             SetupSettings();
         }
