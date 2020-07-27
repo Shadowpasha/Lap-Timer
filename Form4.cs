@@ -113,12 +113,10 @@ namespace Lap_Timer
             tableLayoutPanel1.SuspendLayout();
             for (int x = update; x > update-2; x--)
             {
-                try
-                {
+               
                     this.tableLayoutPanel1.Controls["current" + x.ToString()].Text = current[x];
                     this.tableLayoutPanel1.Controls["finish" + x.ToString()].Text = finish[x];
-                }
-                catch { }
+               
 
 
             }
@@ -135,10 +133,6 @@ namespace Lap_Timer
 
        
 
-        private void Idlabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 
 }

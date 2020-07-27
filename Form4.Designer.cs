@@ -300,7 +300,7 @@
             this.laptimelab.Name = "laptimelab";
             this.laptimelab.Size = new System.Drawing.Size(319, 53);
             this.laptimelab.TabIndex = 3;
-            this.laptimelab.Text = "Last Lap Time";
+            this.laptimelab.Text = "Current Lap Time";
             this.laptimelab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Idlabel
@@ -317,7 +317,6 @@
             this.Idlabel.TabIndex = 3;
             this.Idlabel.Text = "Name";
             this.Idlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Idlabel.Click += new System.EventHandler(this.Idlabel_Click);
             // 
             // id1
             // 
