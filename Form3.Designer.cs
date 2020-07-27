@@ -80,10 +80,13 @@
             // 
             // sheetname
             // 
+            this.sheetname.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.sheetname.FontWeight = MetroFramework.MetroTextBoxWeight.Bold;
             this.sheetname.Location = new System.Drawing.Point(129, 141);
             this.sheetname.Name = "sheetname";
             this.sheetname.Size = new System.Drawing.Size(287, 29);
             this.sheetname.TabIndex = 5;
+            this.sheetname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // confirmation
             // 
@@ -143,7 +146,7 @@
             this.Controls.Add(this.filename);
             this.Controls.Add(this.sheetname);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.MinimumSize = new System.Drawing.Size(0, 238);
+            this.MinimumSize = new System.Drawing.Size(16, 238);
             this.Name = "Form3";
             this.Resizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

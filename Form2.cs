@@ -30,14 +30,14 @@ namespace Lap_Timer
         public string[] weights { get; set; }
        public string[] tags;
         string tagholder;
-       
+        int timer;
         int racers = 0;
         
         ExcelWorksheet ws;
         ExcelPackage excelReport;
         FileInfo file;
         string directory, filepath, excelpath;
-        public Form2()
+        public Form2( )
         {
             InitializeComponent();
             firstnames = new string[200];
@@ -74,7 +74,7 @@ namespace Lap_Timer
         void writereport()
         {
 
-            ExcelWorksheet ws = excelReport.Workbook.Worksheets["Sheet" + (excelReport.Workbook.Worksheets.ToArray().Length - 1).ToString()];
+            ExcelWorksheet ws = excelReport.Workbook.Worksheets.Add(String.Format("Sheet{0}", excelReport.Workbook.Worksheets.ToArray().Length.ToString()));
 
             WriteCell(ws, 1, 1, 1, 1, "First Name");
             WriteCell(ws, 1, 2, 1, 2, "Last Name");
@@ -137,7 +137,7 @@ namespace Lap_Timer
             }
 
 
-            try
+           try
            {
 
                 ExcelWorksheet ws = excelReport.Workbook.Worksheets.Add(String.Format("Sheet{0}", excelReport.Workbook.Worksheets.ToArray().Length.ToString() ));
@@ -152,7 +152,7 @@ namespace Lap_Timer
                 Confirmation.ForeColor = Color.Red;
                 Confirmation.Text = ("Failed to export,if the Excel file is open please close and try again");
             
-            }
+           }
         }
 
         public string[] fnamesf1
@@ -325,11 +325,21 @@ namespace Lap_Timer
 
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer++;
+            if(timer == 50)
+            {
+                Confirmation.Text = "";
+                timer1.Enabled = false;
+                timer = 0;
+            }
+        }
 
         private void Submit_Click(object sender, EventArgs e)
         {
-            if (!tags.Contains(tagholder))
-            {
+          //  if (!tags.Contains(tagholder))
+          //  {
                 racers++;
                 firstnames[racers] = FirstName.Text;
                 lastnames[racers] = Lastname.Text;
@@ -338,16 +348,26 @@ namespace Lap_Timer
                 genders[racers] = Genderbox.Text;
                 heights[racers] = Heightbox.Text;
                 weights[racers] = Weightbox.Text;
-                tags[racers] = tagholder.ToString();
+            //    tags[racers] = tagholder.ToString();
                 photopath[racers] = new Bitmap(Photo.FileName);
                 Confirmation.ForeColor = Color.Green;
                 Confirmation.Text = firstnames[racers] + " has been registered successfully";
-            }
-            else
-            {
-                Confirmation.ForeColor = Color.Red;
-                Confirmation.Text = "Tag already exists or hasn't been scanned";
-            }
+                timer1.Enabled = true;
+        //  }
+         //   else
+        //    {
+           //     Confirmation.ForeColor = Color.Red;
+             //   Confirmation.Text = "Tag already exists or hasn't been scanned";
+           // }
+
+            FirstName.Text = "";
+            Lastname.Text = "";
+            Idbox.Text = "";
+            Heightbox.Text = "";
+            Weightbox.Text = "";
+
+
+            
         }
 
         private void Donebut_Click(object sender, EventArgs e)

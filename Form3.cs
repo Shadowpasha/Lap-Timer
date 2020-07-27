@@ -19,10 +19,12 @@ namespace Lap_Timer
     public partial class Form3 : MetroForm
     {
         string[] names;
+        string[] firstname;
         string[] lastnames;
         string[] id;
         string[] ages;
         string[] genders;
+        public Form Main;
 
         string[] heights;
         Image[] photopath;
@@ -44,6 +46,8 @@ namespace Lap_Timer
             weights = new string[999];
             photopath = new Image[999];
             tagsloaded = new string[999];
+            firstname = new string[999];
+            
         }
         public string[] namesf1
         {
@@ -54,6 +58,17 @@ namespace Lap_Timer
             set
             {
                 this.names = value;
+            }
+        }
+        public string[] firstnamesf1
+        {
+            get
+            {
+                return this.firstname;
+            }
+            set
+            {
+                this.firstname = value;
             }
         }
         public string[] lastnamesf1
@@ -200,7 +215,7 @@ namespace Lap_Timer
                 for (int i = 1; i < rows; i++)
                 {
                     names[i] = worksheet.Cells[i + 1, 1].Value.ToString() + " " + worksheet.Cells[i + 1, 2].Value.ToString();
-                    // names[1] = worksheet.Cells[i + 1, 1].Value.ToString();
+                    firstname[i - 1] = worksheet.Cells[i + 1, 1].Value.ToString();
                     lastnames[i - 1] = worksheet.Cells[i + 1, 2].Value.ToString();
                     id[i - 1] = worksheet.Cells[i + 1, 3].Value.ToString();
                     ages[i - 1] = worksheet.Cells[i + 1, 4].Value.ToString();
@@ -209,16 +224,17 @@ namespace Lap_Timer
                     weights[i - 1] = worksheet.Cells[i + 1, 7].Value.ToString();
                     var excelpic = worksheet.Drawings[id[i - 1]] as ExcelPicture;
                     photopath[i - 1] = excelpic.Image;
-                    tagsloaded[i-1] = worksheet.Cells[i+1, 8].Value.ToString();
+                   // tagsloaded[i-1] = worksheet.Cells[i+1, 8].Value.ToString();
+
                 }
                 racers = rows - 1;
                
                 confirmation.ForeColor = Color.Green;
                 confirmation.Text = "Racers imported Succesfully";
             }
-            catch
+           catch
             {
-                confirmation.ForeColor = Color.Red;
+               confirmation.ForeColor = Color.Red;
                 confirmation.Text = "Sheet Invalid or Excel File is open please close it";
             }
         }
@@ -228,7 +244,11 @@ namespace Lap_Timer
 
         private void import_Click(object sender, EventArgs e)
         {
-            readids();
+              readids();
+            Main = Application.OpenForms[1];
+            Control[] c =  Main.Controls.Find("LoadRacers",true);
+            MetroFramework.Controls.MetroButton load = (MetroFramework.Controls.MetroButton)c[0];
+            load.PerformClick();
         }
 
         private void Done_Click(object sender, EventArgs e)
