@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lap Timer.exe" size="1758176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Lap Timer.exe" size="1758688">
       <assemblyIdentity name="Lap Timer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>8nhcb3RGXZfoqyg6e1Un4dzrjQOXiT7K/oCvDP4QK2w=</dsig:DigestValue>
+        <dsig:DigestValue>jyPJIe/ltdWJNlHepUD15EOOTbP99M7kUVhx3wwFszY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

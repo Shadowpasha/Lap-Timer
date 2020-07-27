@@ -349,7 +349,11 @@ namespace Lap_Timer
                 heights[racers] = Heightbox.Text;
                 weights[racers] = Weightbox.Text;
             //    tags[racers] = tagholder.ToString();
+            try
+            {
                 photopath[racers] = new Bitmap(Photo.FileName);
+            }
+            catch { }
                 Confirmation.ForeColor = Color.Green;
                 Confirmation.Text = firstnames[racers] + " has been registered successfully";
                 timer1.Enabled = true;

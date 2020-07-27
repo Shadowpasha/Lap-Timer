@@ -46,6 +46,8 @@ namespace Lap_Timer
         float timer;
         float ftimer;
         int oldlap = 0;
+        int updownlapsold = 1;
+        Boolean decreaselaps = false;
         int oldracers = 0;
         int[] racermap;
         string tagholder;
@@ -117,12 +119,12 @@ namespace Lap_Timer
                 simpleSound.Play();
 
             }
-            if (countdown == 250)
+            if (countdown == 270)
             {
 
                 SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.Air_Horn);
                 simpleSound.Play();
-               // myStopWatch.Restart();
+                
             }
             else
             {
@@ -134,10 +136,10 @@ namespace Lap_Timer
                     this.Invoke((MethodInvoker)delegate ()
                     {
                         Timerlabel.Text = ((TimeSpan.FromMilliseconds(timer * 10))).ToString(@"mm\:ss\:ff");
-                        display.Timer.Text = ((TimeSpan.FromMilliseconds(timer * 10))).ToString(@"mm\:ss\:ff");
+                       // display.Timer.Text = ((TimeSpan.FromMilliseconds(timer * 10))).ToString(@"mm\:ss\:ff");
                     });
-              
 
+              
             }
         }
 
@@ -169,20 +171,20 @@ namespace Lap_Timer
             ExcelWorksheet ws = excelReport.Workbook.Worksheets["Sheet"+ (excelReport.Workbook.Worksheets.ToArray().Length - 1).ToString()];
 
             
-            for (int y = 0; y < maintable.RowCount +updownlaps.Value ; y++)
+            for (int y = 0; y < maintable.RowCount -1; y++)
             {
 
-                for (int x = 0; x <= updownlaps.Value ; x++)
+                for (int x = 0; x <= updownlaps.Value + 2 ; x++)
                 {
                     MetroFramework.Controls.MetroLabel all = new MetroFramework.Controls.MetroLabel();
 
-                    Control c = maintable.GetControlFromPosition(y, x);
+                    Control c = maintable.GetControlFromPosition(x, y);
                     try { all = (MetroFramework.Controls.MetroLabel)c; } catch { }
-                    try
-                    {
-                        WriteCell(ws, x + 1, y + 1, x + 1, y + 1, all.Text);
-                    }
-                    catch { }
+                   // try
+                  //  {
+                        WriteCell(ws, y + 1, x + 1, y + 1, x + 1, all.Text);
+                  //  }
+                  //  catch { }
 
 
                 }
@@ -284,20 +286,20 @@ namespace Lap_Timer
             }
 
 
-            try
-            {
+         //   try
+         //   {
             
                 ExcelWorksheet ws = excelReport.Workbook.Worksheets.Add(String.Format("Sheet{0}", excelReport.Workbook.Worksheets.ToArray().Length.ToString()));
                 writereport();
                 MessageBox.Show("Data Exported to Excel Successfully");
                
 
-            }
-           catch (Exception)
-            {
+           // }
+          // catch (Exception)
+         //  {
          
-               MessageBox.Show("Failed to export,if the Excel file is open please close and try again");
-            }
+          //     MessageBox.Show("Failed to export,if the Excel file is open please close and try again");
+          //  }
 
         }
 
@@ -307,14 +309,14 @@ namespace Lap_Timer
         {
             if (racebeginbutton.Text == "Start Race")
             {
-                //Maintimer.Enabled = true;
+               // Maintimer.Enabled = true;
                  //myStopWatch.Restart();
                   maintimer.Change(0, 1);
                 // Finish.Enabled = true;
                 display.Updategui.Enabled = true;
-                
-                    Updatemain.Enabled = true;
-                    updatefinish.Enabled = true;
+
+                Updatemain.Enabled = true;
+                updatefinish.Enabled = true;
                 racebeginbutton.Text = "End Race";
                
             }
@@ -337,10 +339,6 @@ namespace Lap_Timer
 
         }
 
-        private void Endracebutton_Click(object sender, EventArgs e)
-        {
-          
-        }
 
 
         public void updownracers_ValueChanged(object sender, EventArgs e)
@@ -353,11 +351,21 @@ namespace Lap_Timer
 
         private void updownlaps_ValueChanged(object sender, EventArgs e)
         {
-        
-            updateColumns();
-            updateRows();
-            Lapsleft.Text = racermap.Max().ToString() + " / " + updownlaps.Value.ToString();
-
+            if (updownlapsold <= updownlaps.Value)
+            {
+               // decreaselaps = false;
+                updateColumns();
+                updateRows();
+                Lapsleft.Text = racermap.Max().ToString() + " / " + updownlaps.Value.ToString();
+            }
+            else
+            {
+               // decreaselaps = true;
+                updateColumns();
+                updateRows();
+                Lapsleft.Text = racermap.Max().ToString() + " / " + updownlaps.Value.ToString();
+            }
+            updownlapsold = (int)updownlaps.Value;
         }
 
 
@@ -371,25 +379,61 @@ namespace Lap_Timer
 
             {
 
-                for (int y = maintable.ColumnCount; y > 2; y--)
-                {
-                    try
-                    {
-                        Control c1 = maintable.GetControlFromPosition(y, 0);
-                        maintable.Controls.Remove(c1);
-                        c1.Dispose();
-                    }
-                    catch
-                    {
-                        Control c1 = maintable.GetControlFromPosition(y - 1, 0);
-                        maintable.Controls.Remove(c1);
-                        c1.Dispose();
-                    }
-                }
+                //for (int y = maintable.ColumnCount; y > 2; y--)
+                //{
+                //    try
+                //    {
+                //        Control c1 = maintable.GetControlFromPosition(y, 0);
+                //        maintable.Controls.Remove(c1);
+                //        c1.Dispose();
+                //    }
+                //    catch
+                //    {
+                //        Control c1 = maintable.GetControlFromPosition(y - 1, 0);
+                //        maintable.Controls.Remove(c1);
+                //        c1.Dispose();
+                //    }
+                //}
 
+                maintable.Controls.Clear();
                 maintable.ColumnCount = (int)updownlaps.Value + 3;
-               
-               
+                MetroFramework.Controls.MetroLabel RANK = new MetroFramework.Controls.MetroLabel();
+                RANK.Name = "RANK";
+                RANK.Text = "Rank";
+                RANK.Anchor = System.Windows.Forms.AnchorStyles.None;
+                RANK.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+                // Lap.BackColor = System.Drawing.SystemColors.WindowFrame;
+                // Lap.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+                // Lap.ForeColor = System.Drawing.SystemColors.Window;
+               // RANK.Location = new System.Drawing.Point(311, 1);
+                RANK.Margin = new System.Windows.Forms.Padding(0);
+                RANK.MinimumSize = new System.Drawing.Size(117, 50);
+                RANK.Size = new System.Drawing.Size(117, 50);
+                RANK.TabIndex = 2;
+                RANK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                RANK.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                RANK.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right);
+                maintable.Controls.Add(RANK, 0, 0);
+
+                MetroFramework.Controls.MetroLabel NAME = new MetroFramework.Controls.MetroLabel();
+                NAME.Name = "NAME";
+                NAME.Text = "Name";
+                NAME.Anchor = System.Windows.Forms.AnchorStyles.None;
+                NAME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+                // Lap.BackColor = System.Drawing.SystemColors.WindowFrame;
+                // Lap.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+                // Lap.ForeColor = System.Drawing.SystemColors.Window;
+                // RANK.Location = new System.Drawing.Point(311, 1);
+                NAME.Margin = new System.Windows.Forms.Padding(0);
+                NAME.MinimumSize = new System.Drawing.Size(117, 50);
+                NAME.Size = new System.Drawing.Size(117, 50);
+                NAME.TabIndex = 2;
+                NAME.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                NAME.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+                NAME.Anchor = (AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right);
+                maintable.Controls.Add(NAME, 1, 0);
+
+
                 for (int y = maintable.ColumnCount; y > 3; y--)
                 {
                     MetroFramework.Controls.MetroLabel Lap = new MetroFramework.Controls.MetroLabel();
@@ -421,8 +465,8 @@ namespace Lap_Timer
               // finish.ForeColor = System.Drawing.SystemColors.Window;
                 finish.Location = new System.Drawing.Point(311, 1);
                 finish.Margin = new System.Windows.Forms.Padding(0);
-                finish.MinimumSize = new System.Drawing.Size(240, 51);
-                finish.AutoSize = true;
+                // finish.MinimumSize = new System.Drawing.Size(240, 51);
+               finish.Size = new System.Drawing.Size(117, 51);
                 finish.TabIndex = 2;
                 finish.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                 finish.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -477,7 +521,7 @@ namespace Lap_Timer
                 finish.Location = new System.Drawing.Point(311, 1);
                 finish.Margin = new System.Windows.Forms.Padding(0);
                 finish.MinimumSize = new System.Drawing.Size(240, 51);
-                finish.Size = new System.Drawing.Size(1076, 51);
+                finish.Size = new System.Drawing.Size(117, 51);
                 finish.TabIndex = 2;
                 finish.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
                 finish.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -517,9 +561,9 @@ namespace Lap_Timer
         {
 
             maintable.SuspendLayout();
-            if (oldracers > updownracers.Value)
+            if (oldracers > updownracers.Value )
             {
-                for (int x = maintable.RowCount; x > 1; x--)
+                for (int x = maintable.ColumnCount; x > 1; x--)
                 {
                     Control c2 = maintable.GetControlFromPosition(1, x - 1);
                     maintable.Controls.Remove(c2);
@@ -539,6 +583,11 @@ namespace Lap_Timer
                     }
 
                 }
+
+                //maintable.Controls.Clear();
+                //maintable.RowStyles.Clear();
+                //maintable.RowStyles.Clear();
+
                 maintable.RowCount = (int)updownracers.Value + 2;
                 racermap = new int[(int)updownracers.Value + 2];
                 lapinterval = new int[(int)updownracers.Value + 2];
@@ -584,7 +633,7 @@ namespace Lap_Timer
                 }
 
 
-            }
+            } 
 
             if (updownracers.Value >= oldracers)
             {
@@ -669,6 +718,7 @@ namespace Lap_Timer
 
             maintable.ResumeLayout();
             oldracers = (int)updownracers.Value;
+            
         }
 
         private void Export_Click(object sender, EventArgs e)
@@ -681,6 +731,14 @@ namespace Lap_Timer
 
         private void Reset_Click(object sender, EventArgs e)
         {
+            try
+            {
+                for (int y = 0; y <= NRUNNERS.Value; y++)
+                {
+                    racermap[y] = 0;
+                }
+            }
+            catch { }
             countdown = 0;
             updownracers.Value = 0;
             updownlaps.Value = 1;
@@ -706,6 +764,7 @@ namespace Lap_Timer
                 display.tableLayoutPanel1.Controls["finish" + x.ToString()].Text = "--";
 
             }
+          
             display.Timer.Text = "00:00:00";
             myStopWatch.Reset();
         }
@@ -996,7 +1055,9 @@ namespace Lap_Timer
         private void Updatemain_Tick(object sender, EventArgs e)
         {
             Updatemaingui(1);
-            
+            display.tableLayoutPanel1.SuspendLayout();
+            display.Timer.Text = Timerlabel.Text;
+            display.tableLayoutPanel1.ResumeLayout();
         }
 
         private void updatefinish_Tick(object sender, EventArgs e)
@@ -1022,6 +1083,9 @@ namespace Lap_Timer
                 display.Show();
                 MessageBox.Show("Connect to a Second Display or Screen");
             }
+
+            Updatemain.Enabled = true;
+            updatefinish.Enabled = true;
         }
 
 
