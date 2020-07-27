@@ -50,6 +50,7 @@ namespace Lap_Timer
         int[] racermap;
         string tagholder;
         int racer=1;
+        Boolean first_time = true;
         int[] lapinterval;
         int countdown=0;
         bool register;
@@ -80,6 +81,7 @@ namespace Lap_Timer
             InitializeComponent();
             rankmemory =new int[ 999];
             finishchecker = new int[999];
+            Totaltime = new int[999];
             Registeration.Main = this;
             maintimer = new System.Threading.Timer( timer_Elapsed, null, System.Threading.Timeout.Infinite, 1);
             Rs323Panel.Enabled = false;
@@ -120,19 +122,21 @@ namespace Lap_Timer
 
                 SoundPlayer simpleSound = new SoundPlayer(Properties.Resources.Air_Horn);
                 simpleSound.Play();
-              //  myStopWatch.Restart();
+               // myStopWatch.Restart();
             }
             else
             {
-               
-                timer = (int)myStopWatch.Elapsed.TotalMilliseconds / 10;
-                ftimer = (int)myStopWatch.Elapsed.TotalMilliseconds / 10;
+              
 
-                this.Invoke((MethodInvoker)delegate ()
-                {
-                    Timerlabel.Text = ((TimeSpan.FromMilliseconds(timer * 10))).ToString(@"mm\:ss\:ff");
-                    display.Timer.Text = ((TimeSpan.FromMilliseconds(timer * 10))).ToString(@"mm\:ss\:ff");
-                });
+                    timer = (int)myStopWatch.Elapsed.TotalMilliseconds / 10;
+                    ftimer = (int)myStopWatch.Elapsed.TotalMilliseconds / 10;
+
+                    this.Invoke((MethodInvoker)delegate ()
+                    {
+                        Timerlabel.Text = ((TimeSpan.FromMilliseconds(timer * 10))).ToString(@"mm\:ss\:ff");
+                        display.Timer.Text = ((TimeSpan.FromMilliseconds(timer * 10))).ToString(@"mm\:ss\:ff");
+                    });
+              
 
             }
         }
@@ -304,7 +308,7 @@ namespace Lap_Timer
             if (racebeginbutton.Text == "Start Race")
             {
                 //Maintimer.Enabled = true;
-              //  myStopWatch.Restart();
+                 //myStopWatch.Restart();
                   maintimer.Change(0, 1);
                 // Finish.Enabled = true;
                 display.Updategui.Enabled = true;
@@ -714,6 +718,23 @@ namespace Lap_Timer
 
         private void LoadRacers_Click(object sender, EventArgs e)
         {
+            if (!register)
+            {
+                for (int i = 0; i < loadids.racersf1; i++)
+                {
+                    Registeration.firstnames[i + 1] = loadids.firstnamesf1[i];
+                    Registeration.lastnames[i + 1] = loadids.lastnamesf1[i];
+                    Registeration.id[i + 1] = loadids.idf1[i];
+                    Registeration.ages[i + 1] = loadids.agesf1[i];
+                    Registeration.genders[i + 1] = loadids.gendersf1[i];
+                    Registeration.heights[i + 1] = loadids.heightf1[i];
+                    Registeration.weights[i + 1] = loadids.weightsf1[i];
+                    Registeration.photopath[i + 1] = loadids.phtotpathf1[i];
+                    Registeration.racersf1 = loadids.racersf1 ;
+
+                }
+            }
+
             if (register)
             {
                 updownracers.Value = (int)Registeration.racersf1;
@@ -724,6 +745,11 @@ namespace Lap_Timer
                 updownracers.Value = (int)loadids.racersf1;
                 NRUNNERS.Value = (int)loadids.racersf1;
             }
+
+
+           
+
+
         }
 
         private void import_Click(object sender, EventArgs e)
@@ -1878,11 +1904,7 @@ namespace Lap_Timer
                                     racer = loadids.tagsf1.ToList().IndexOf(tagholder.ToString()) + 1;
                                 }
                                 MetroFramework.Controls.MetroLabel time = new MetroFramework.Controls.MetroLabel();
-                                if (racer == loadids.tagsf1.Length && first_round)
-                                {
-                                    myStopWatch.Restart();
-                                    first_round = false; 
-                                }
+                            
 
                                 Control[] c;
                                 c = maintable.Controls.Find("time" + (racermap[racer] + 2).ToString() + (racer).ToString(), true);
@@ -1903,14 +1925,47 @@ namespace Lap_Timer
                                 display.finishs[rankmemory[racer]] = ((TimeSpan.FromMilliseconds((ftimer) * 10))).ToString(@"mm\:ss\:ff");
                                 finish.Text = ((TimeSpan.FromMilliseconds((ftimer) * 10))).ToString(@"mm\:ss\:ff");
 
-                                try
+                                racermap[racer]++;
+                                lapinterval[racer] = (int)ftimer;
+                                for (int b = 1; b < maintable.RowCount; b++)
+                                    Totaltime[b] = ((int)timer - lapinterval[b]);
+
+
+                                if (first_round)
                                 {
-                                    for (int b = 1; b < maintable.RowCount - 1; b++)
-                                        Totaltime[b] += ((int)timer - lapinterval[b]);
-                                    racermap[racer]++;
-                                    lapinterval[racer] = (int)ftimer;
+                                    for (int t = 1; t <= NRUNNERS.Value; t++)
+                                    {
+                                        int previous = 1;
+                                        if (racermap[t] >= 1)
+                                        {
+                                            first_round = false;
+
+                                        }
+                                        else
+                                        {
+                                            first_round = true;
+                                            break;
+                                        }
+                                        previous = racermap[t];
+
+                                    }
                                 }
-                                catch { }
+                                else
+                                {
+                                    myStopWatch.Start();
+                                }
+
+                                if (!first_round && first_time)
+                                {
+                                    myStopWatch.Start();
+                                    for (int t = 1; t <= NRUNNERS.Value; t++)
+                                    {
+                                        racermap[t] = 0;
+                                        lapinterval[t] = 0;
+
+                                    }
+                                    first_time = false;
+                                }
                                 updaterank();
                             }
                             //ledFast1.Text.Text = m_nSwitchTime.ToString();
@@ -1985,6 +2040,83 @@ namespace Lap_Timer
             {
                 m_curInventoryBuffer.nMinRSSI = nRSSI;
             }
+        }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            racer = (int)numericUpDown1.Value;
+        }
+
+
+        private void metroLabel1_Click(object sender, EventArgs e)
+        {
+            Label time = new Label();
+
+            Control[] c;
+
+            c = maintable.Controls.Find("time" + (racermap[racer] + 2).ToString() + (racer).ToString(), true);
+
+            if (c.Length > 0)
+                time = (Label)c[0];
+
+            time.Text = ((TimeSpan.FromMilliseconds((timer - lapinterval[racer]) * 10))).ToString(@"mm\:ss\:ff");
+            display.currents[rankmemory[racer]] = ((TimeSpan.FromMilliseconds((timer - lapinterval[racer]) * 10))).ToString(@"mm\:ss\:ff");
+
+            Label finish = new Label();
+            Control[] c1;
+            c1 = maintable.Controls.Find("time" + ((int)updownlaps.Value + 2).ToString() + (racer).ToString(), true);
+            if (c1.Length > 0)
+                finish = (Label)c1[0];
+
+
+            display.finishs[rankmemory[racer]] = ((TimeSpan.FromMilliseconds((ftimer) * 10))).ToString(@"mm\:ss\:ff");
+            finish.Text = ((TimeSpan.FromMilliseconds((ftimer) * 10))).ToString(@"mm\:ss\:ff");
+
+          
+
+                racermap[racer]++;
+                lapinterval[racer] = (int)ftimer;
+                for (int b = 1; b < maintable.RowCount; b++)
+                Totaltime[b] = ((int)timer - lapinterval[b]);
+
+            
+            if (first_round)
+            {
+                for (int t = 1; t <= NRUNNERS.Value; t++)
+                {
+                    int previous = 1;
+                    if (racermap[t] >= 1)
+                    {
+                        first_round = false;
+
+                    }
+                    else
+                    {
+                        first_round = true;
+                        break;
+                    }
+                    previous = racermap[t];
+
+                }
+            }
+            else
+            {
+                myStopWatch.Start();
+            }
+
+            if (!first_round && first_time)
+            {
+                myStopWatch.Start();
+                for (int t = 1; t <= NRUNNERS.Value; t++)
+                {
+                    racermap[t] = 0;
+                    lapinterval[t] = 0;
+
+                }
+                first_time = false;
+            }
+
+            updaterank();
         }
 
 

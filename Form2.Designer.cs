@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.Submit = new MetroFramework.Controls.MetroButton();
             this.Donebut = new MetroFramework.Controls.MetroButton();
@@ -50,6 +51,7 @@
             this.label2 = new MetroFramework.Controls.MetroLabel();
             this.Photo = new System.Windows.Forms.OpenFileDialog();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // Submit
@@ -250,12 +252,16 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(252, 29);
             this.dateTimePicker1.TabIndex = 35;
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.ClientSize = new System.Drawing.Size(423, 561);
+            this.ClientSize = new System.Drawing.Size(437, 571);
             this.ControlBox = false;
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.Idbox);
@@ -310,5 +316,6 @@
         private System.Windows.Forms.OpenFileDialog Photo;
         public  MetroFramework.Controls.MetroButton Read;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

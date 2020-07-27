@@ -125,6 +125,8 @@
             this.NRUNNERS = new System.Windows.Forms.NumericUpDown();
             this.label8 = new MetroFramework.Controls.MetroLabel();
             this.metroStyleExtender1 = new MetroFramework.Components.MetroStyleExtender(this.components);
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.maintable.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.updownracers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.updownlaps)).BeginInit();
@@ -153,6 +155,7 @@
             this.panel8.SuspendLayout();
             this.panel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NRUNNERS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // maintable
@@ -168,7 +171,6 @@
             this.maintable.Controls.Add(this.label5, 0, 0);
             this.maintable.Controls.Add(this.label19, 2, 0);
             this.maintable.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.maintable.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
             this.maintable.Location = new System.Drawing.Point(10, 117);
             this.maintable.Name = "maintable";
             this.maintable.RowCount = 2;
@@ -210,7 +212,6 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Rank";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-          //  this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label19
             // 
@@ -249,7 +250,7 @@
             this.updownlaps.BackColor = System.Drawing.Color.AliceBlue;
             this.updownlaps.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.updownlaps.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.updownlaps.Location = new System.Drawing.Point(98, 70);
+            this.updownlaps.Location = new System.Drawing.Point(97, 54);
             this.updownlaps.Maximum = new decimal(new int[] {
             999999,
             0,
@@ -292,7 +293,7 @@
             // 
             // Export
             // 
-            this.Export.Location = new System.Drawing.Point(16, 165);
+            this.Export.Location = new System.Drawing.Point(16, 170);
             this.Export.Name = "Export";
             this.Export.Size = new System.Drawing.Size(151, 28);
             this.Export.TabIndex = 9;
@@ -1260,6 +1261,8 @@
             // panel10
             // 
             this.panel10.BorderStyle = MetroFramework.Drawing.MetroBorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.numericUpDown1);
+            this.panel10.Controls.Add(this.metroLabel1);
             this.panel10.Controls.Add(this.button1);
             this.panel10.Controls.Add(this.updownlaps);
             this.panel10.Controls.Add(this.label10);
@@ -1279,7 +1282,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(16, 127);
+            this.button1.Location = new System.Drawing.Point(16, 121);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(151, 31);
             this.button1.TabIndex = 11;
@@ -1289,7 +1292,8 @@
             // label10
             // 
             this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Location = new System.Drawing.Point(16, 70);
+            this.label10.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.label10.Location = new System.Drawing.Point(16, 54);
             this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(86, 38);
@@ -1416,6 +1420,51 @@
             this.label8.Text = "PARTICIPANTS";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // metroLabel1
+            // 
+            this.metroLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroLabel1.Enabled = false;
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
+            this.metroLabel1.Location = new System.Drawing.Point(16, 54);
+            this.metroLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(86, 38);
+            this.metroLabel1.Style = MetroFramework.MetroColorStyle.Blue;
+            this.metroLabel1.TabIndex = 12;
+            this.metroLabel1.Text = "Racer";
+            this.metroLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.metroLabel1.Visible = false;
+            this.metroLabel1.Click += new System.EventHandler(this.metroLabel1_Click);
+            // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.BackColor = System.Drawing.Color.AliceBlue;
+            this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.numericUpDown1.Enabled = false;
+            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1.Location = new System.Drawing.Point(97, 54);
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(70, 38);
+            this.numericUpDown1.TabIndex = 13;
+            this.numericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Visible = false;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1468,6 +1517,7 @@
             this.panel8.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.NRUNNERS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1481,7 +1531,6 @@
         private MetroFramework.Controls.MetroButton Export;
         private MetroFramework.Controls.MetroButton Reset;
         private MetroFramework.Controls.MetroButton MANUAL;
-        private MetroFramework.Controls.MetroButton LoadRacers;
         private MetroFramework.Controls.MetroButton LOAD;
         private System.Windows.Forms.NumericUpDown updownracers;
         private System.Windows.Forms.Timer Updatemain;
@@ -1569,6 +1618,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        public MetroFramework.Controls.MetroButton LoadRacers;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
     }
 }
 
