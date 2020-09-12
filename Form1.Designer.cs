@@ -1311,7 +1311,7 @@
             // 
             this.metroLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.metroLabel1.Location = new System.Drawing.Point(18, 105);
+            this.metroLabel1.Location = new System.Drawing.Point(16, 105);
             this.metroLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(86, 38);
